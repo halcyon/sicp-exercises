@@ -22,7 +22,8 @@
   (* x x))
 
 (define (sum-of-squares x y)
-  (+ (square x) (square y)))
+  (+ (square x)
+     (square y)))
 
 (define (larger x y)
   (if (> x y)
